@@ -1,0 +1,9 @@
+MapboxAccessToken = pk.eyJ1IjoiaXdzc3R1YXJ0IiwiYSI6InNaNzMzVXMifQ.OFDL1zM5OjRUHcL_Y5htCA
+QA_TILES ?= united_states_of_america
+DATA_TILES ?= mbtiles://./data/osm/$(QA_TILES).mbtiles
+BBOX ?= '-74.2589,40.4774,-73.7004,40.9176'
+IMAGE_TILES ?= "tilejson+https://a.tiles.mapbox.com/v4/mapbox.satellite.json?access_token=$(MapboxAccessToken)"
+TRAIN_SIZE ?= 400
+CLASSES ?= classes/coastline.json
+LABEL_RATIO ?= 0
+ZOOM_LEVEL ?= 15

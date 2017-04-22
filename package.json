@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@mapbox/tile-reduce": "^3.1.1",
+    "@mapbox/tilelive": "^5.12.3",
     "@turf/bbox": "^3.7.0",
     "@turf/inside": "^3.7.0",
     "geojson-stream": "0.0.1",
@@ -28,8 +29,7 @@
     "tilebelt": "^1.0.1",
     "tilejson": "^1.0.1",
     "tilelive": "^5.12.2",
-    "tilelive-vector": "^3.9.2",
-    "turf-bbox-polygon": "^3.0.12"
+    "tilelive-vector": "^3.9.2"
   },
   "devDependencies": {
     "eslint": "^2.7.0",
